@@ -1,0 +1,9 @@
+---
+# tasks file for roleb
+- name: Log from B
+  debug:
+    msg: "Logging a message from Role B in Collection B (outer)"
+- name: Include role from Collection C
+  include_role:
+    name: namespacec.collectionc.rolec
+
