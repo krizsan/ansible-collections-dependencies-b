@@ -41,7 +41,7 @@ tags: []
 # L(specifiers,https://python-semanticversion.readthedocs.io/en/latest/#requirement-specification). Multiple version
 # range specifiers can be set and are separated by ','
 dependencies: {
-  'https://github.com/krizsan/ansible-collections-dependencies-c.git': 'main'
+  'git@github.com:krizsan/ansible-collections-dependencies-c.git': 'main'
 }
 
 # The URL of the originating SCM repository
