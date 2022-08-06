@@ -2,7 +2,7 @@
 # tasks file for roleb
 - name: Log from B
   debug:
-    msg: "Logging a message from Role B in Collection B (outer)"
+    msg: "Logging a message from Role B in Collection B"
 - name: Include role from Collection C
   include_role:
     name: namespacec.collectionc.rolec
